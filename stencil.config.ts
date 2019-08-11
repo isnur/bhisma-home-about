@@ -3,12 +3,6 @@ import { sass } from '@stencil/sass';
 
 export const config: Config = {
   namespace: 'home-about',
-  bundles: [
-    {
-      components: ['home-about']
-    }
-  ],
-  excludeSrc: ['/src/components/my-component'],
   plugins: [
     sass()
   ],
